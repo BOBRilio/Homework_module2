@@ -36,6 +36,7 @@ public class TestPlanScanner {
             return;
         }
 
+
         for (TestStep step : plan) {
             System.out.println("    " + step.order() + ". " + step.id() + " → " + step.methodName());
         }
